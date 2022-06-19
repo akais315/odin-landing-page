@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
 
 body{
     font-family: Roboto, sans-serif;
@@ -36,7 +36,7 @@ a{
 
 .signup,
 .pictures,
-.quote{
+.quotes{
     display: flex;
     padding: 64px 200px 
 }
@@ -67,9 +67,55 @@ button,
     
 }
 
-.quote{
+.pictures{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.pics{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.pic{
+    width: 170px;
+    text-align: start;
+}
+
+.pic img{
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+    background-color: #FFF;
+    width: 155px;
+    height: 155px;
+}
+
+.quotes{
     background-color: #E5E7EB;
     flex-direction: column;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0 64px 0 64px;
+}
+
+.author{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: right;
+    margin: 0 128px 0 0;
 }
 
 .action{
