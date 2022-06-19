@@ -34,7 +34,9 @@ a{
     text-decoration: none;
 }
 
-.signup{
+.signup,
+.pictures,
+.quote{
     display: flex;
     padding: 64px 200px 
 }
@@ -62,19 +64,51 @@ button,
 .action{
     background-color: #3882F6;
     color: #FFFFFF;
+    
+}
+
+.quote{
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.action{
+    display: flex;
+    margin: 64px 200px;
+    padding: 32px 64px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.action .left{
+    flex: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.action p{
+    margin: 0;
+}
+
+.action .secondary{
+    font-size: 18px;
+}
+
+.action .title{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action button{
+    border-color: #FFF;
 }
 
 button{
-    padding: 32p, 16px;
-}
-
-.right{
-    background-color: #FFF;
-    opacity: 0.3;
-}
-
-.pic{
-    opacity: 1;
+    border-radius: 8px;
+    /*min-width: 120px;*/
+    font-size: 18px;
+    font-weight: 700;
+    padding: 32px, 16px;
 }
 
 .footer{
